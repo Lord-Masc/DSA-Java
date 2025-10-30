@@ -27,6 +27,21 @@ class MyLinkedList {
         head = newNode;
     }
 
+    public void AddLast(int data){
+        ListNode newNode = new ListNode(data);
+
+        ListNode temp = head;
+        if (head==null) {
+            head=newNode;
+            return;
+        }
+        while (temp.next!=null) {
+            temp=temp.next;
+        }
+        temp.next=newNode;
+
+    }
+
     // Print list
     public void printList() {
         ListNode temp = head;
