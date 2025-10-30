@@ -8,5 +8,6 @@ public class RemoveDuplicaet1 {
         }
         System.out.println(set.size());
         System.out.println(set);
+        System.out.println(set);
     }
 }
