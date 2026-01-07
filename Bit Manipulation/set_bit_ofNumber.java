@@ -6,8 +6,7 @@ public class set_bit_ofNumber {
         Scanner sc = new Scanner(System.in);
         int i = sc.nextInt();
         i = 1<<(i-1);
-        int temp = num|i;
-        System.err.println(temp);
+        System.err.println(num|i);
         sc.close();
         
     }
